@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 
 import './App.css';
 import Dashboard from './components/Dashboard';
+import DataTable from './components/DataTable';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Col md={4}><Dashboard className="container" /></Col>
         </Row>
       </Container>
+      <DataTable />
     </div>
   );
 }
